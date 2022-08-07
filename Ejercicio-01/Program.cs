@@ -16,10 +16,10 @@ namespace Ejercicio_01
         }
 
         /// <summary>
-        /// 
+        /// Indica la cantidad de digitos de un numero
         /// </summary>
         /// <param name="numero"></param>
-        /// <returns></returns>
+        /// <returns>Cantidad de digitos</returns>
         static uint CantidadDigitos(uint numero)
         {
             if(numero < 10) { return 1; }
